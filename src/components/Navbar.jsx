@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+    <header className="sticky top-0 z-20 bg-slate-950/80 backdrop-blur">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <span className="text-lg font-semibold tracking-tight">
           Akshit<span className="text-indigo-400">.</span>
