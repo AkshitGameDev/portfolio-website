@@ -1,0 +1,80 @@
+/* HERO SECTION CONTAINER */
+.hero-container {
+  padding: 3rem 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* GRID – 1 column mobile, 2 column desktop */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* TEXT CELL */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.hero-center {
+  justify-content: center;   /* Center vertically */
+  height: 100%;
+}
+
+.hero-center-full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center;  
+  height: 100%;
+}
+
+
+
+
+/* Headings */
+.hero-line {
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.hero-name {
+  font-size: 48px;
+  font-weight: 700;
+  color: #22d3ee;
+  margin: 0;
+}
+
+.hero-role {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fde68a;
+  margin: 0;
+}
+
+/* IMAGE CELL */
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1e293b;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
