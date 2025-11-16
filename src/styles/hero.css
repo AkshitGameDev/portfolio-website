@@ -31,6 +31,17 @@
   height: 100%;
 }
 
+.hero-center-full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center;  
+  height: 100%;
+}
+
+
+
+
 /* Headings */
 .hero-line {
   font-size: 46px;
@@ -47,7 +58,7 @@
 }
 
 .hero-role {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
   color: #fde68a;
   margin: 0;

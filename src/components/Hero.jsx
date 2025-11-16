@@ -7,11 +7,12 @@ export default function Hero() {
       <div className="hero-grid">
 
         {/* LEFT CELL */}
-        <div className="hero-text hero-center">
+        <div className="hero-text hero-center-full">
           <h1 className="hero-line">Hello my name is</h1>
           <h1 className="hero-name">{profile.name}</h1>
-          <h1 className="hero-role">Software Developer</h1>
+          <h1 className="hero-role">SoftwareDeveloper</h1>
         </div>
+
 
         {/* RIGHT CELL: IMAGE */}
         <div className="hero-image-wrapper">
