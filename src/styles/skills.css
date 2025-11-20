@@ -1,0 +1,58 @@
+/* FLEX GRID (always centers last row) */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* 3 columns on mobile, 6 on larger screens */
+.skill-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 3 columns on phones */
+@media (max-width: 767px) {
+  .skill-card {
+    width: calc(33.333% - 20px); /* 3 columns */
+  }
+}
+
+/* 6 columns on tablets + laptops */
+@media (min-width: 768px) {
+  .skill-card {
+    width: calc(16.666% - 20px); /* 6 columns */
+  }
+}
+
+.skill-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #b488b6;
+  text-align: center;
+}
+
+.skills-heading {
+    background-color: #0004386f;
+  font-size: 38px;
+  font-weight: 700;
+  color: #8235c9;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-color: #000000;
+  border-radius: 2px;
+}

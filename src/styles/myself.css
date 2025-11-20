@@ -9,7 +9,7 @@
 .myself-title {
   font-size: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #c02db2;
   margin-bottom: 1.2rem;
 }
 
@@ -17,6 +17,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
-  color: #dbe2f3; /* soft gray-blue for readability */
+  color: #cdcdcd; /* soft gray-blue for readability */
   white-space: pre-line;
 }
