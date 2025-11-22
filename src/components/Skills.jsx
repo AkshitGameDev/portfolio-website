@@ -1,41 +1,41 @@
 // src/components/Skills.jsx
 import "../styles/skills.css";
 
-// import your icons here (adjust paths & filenames)
-import csharpIcon from "../assets/react.svg";
-import jsIcon from "../assets/react.svg";
-import tsIcon from "../assets/react.svg";
-import reactIcon from"../assets/react.svg";
-import nodeIcon from "../assets/react.svg";
-import expressIcon from "../assets/react.svg";
-import postgresIcon from "../assets/react.svg";
-import prismaIcon from "../assets/react.svg";
-import redisIcon from "../assets/react.svg";
-import androidIcon from "../assets/react.svg";
-import kotlinIcon from "../assets/react.svg";
-import unityIcon from "../assets/react.svg";
-import gitIcon from "../assets/react.svg";
-import githubIcon from "../assets/react.svg";
-import tailwindIcon from "../assets/react.svg";
-import htmlIcon from "../assets/react.svg";
+// Exact icons from your assets folder
+import cpp from "../assets/icons/cpp.png";
+import csharp from "../assets/icons/csharp.svg";
+import cocos from "../assets/icons/cocos_creator.svg";
+import dart from "../assets/icons/dart.svg";
+import expo from "../assets/icons/expo.svg";
+import flutter from "../assets/icons/flutter.svg";
+import godot from "../assets/icons/godot.svg";
+import js from "../assets/icons/js.svg";
+import mongodb from "../assets/icons/mongodb.svg";
+import node from "../assets/icons/node.png";
+import react from "../assets/icons/react.svg";
+import swift from "../assets/icons/swift.png";
+import ts from "../assets/icons/ts.png";
+import unity from "../assets/icons/unity.png";
+import unreal from "../assets/icons/unreal.png";
+import xcode from "../assets/icons/xcode.png";
 
 const skillItems = [
-  { name: "C#", icon: csharpIcon },
-  { name: "JavaScript", icon: jsIcon },
-  { name: "TypeScript", icon: tsIcon },
-  { name: "React", icon: reactIcon },
-  { name: "Node.js", icon: nodeIcon },
-  { name: "Express", icon: expressIcon },
-  { name: "PostgreSQL", icon: postgresIcon },
-  { name: "Prisma", icon: prismaIcon },
-  { name: "Redis", icon: redisIcon },
-  { name: "Android", icon: androidIcon },
-  { name: "Kotlin", icon: kotlinIcon },
-  { name: "Unity", icon: unityIcon },
-  { name: "Git", icon: gitIcon },
-  { name: "GitHub", icon: githubIcon },
-  { name: "Tailwind CSS", icon: tailwindIcon },
-  { name: "HTML5", icon: htmlIcon },
+  { name: "C++", icon: cpp },
+  { name: "C#", icon: csharp },
+  { name: "Cocos Creator", icon: cocos },
+  { name: "Dart", icon: dart },
+  { name: "Expo", icon: expo },
+  { name: "Flutter", icon: flutter },
+  { name: "Godot", icon: godot },
+  { name: "JavaScript", icon: js },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Node.js", icon: node },
+  { name: "React", icon: react },
+  { name: "Swift", icon: swift },
+  { name: "TypeScript", icon: ts },
+  { name: "Unity", icon: unity },
+  { name: "Unreal Engine", icon: unreal },
+  { name: "Xcode", icon: xcode },
 ];
 
 export default function Skills() {
